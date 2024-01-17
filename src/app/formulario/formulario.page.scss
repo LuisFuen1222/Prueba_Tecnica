@@ -1,0 +1,57 @@
+ion-header {
+    background: #000000; /* Cambia el color de fondo del encabezado */
+    --color: white; /* Cambia el color del texto del encabezado */
+  }
+  
+  ion-toolbar {
+    --background: #74276D; /* Cambia el color de fondo de la barra de herramientas */
+  }
+
+  .Button-Agregar{
+    display: block;
+    margin: 0 auto;
+  }
+  
+  ion-title {
+    --color: white; 
+    /* Cambia el color del título */
+  }
+.mi-tabla {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mi-tabla th {
+  background-color: #9179AD;
+  color: rgb(0, 0, 0);
+}
+
+.mi-tabla td { /* SCSS tabla*/
+  border: 1px solid #ff6666b5;
+  padding: 8px;
+}
+
+
+ion-button {
+  margin-top: 10px;
+  --background: #5f205a;
+  color:antiquewhite;
+}
+
+ion-searchbar {
+  margin-top: 10px;
+}
+  @media screen and (max-width: 600px) {
+    .mi-clase {
+      font-size: 14px;
+    }
+  }
+  .custom-bold {
+    font-weight: bold;
+    color: black; /* o tu color deseado */
+  }
+  
+  ion-label {
+    font-weight: bold;
+  }
+  
